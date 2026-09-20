@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="light-theme">
+    
+    <h1>Мій щоденник</h1>
+    <button type="button" id="theme-btn">Змінити тему</button>
+    <div id="entries"></div>
+    <form id="entry-form">
+        <input placeholder="Введіть заголовок" type="text" id="entry-input">
+        <textarea placeholder="Введіть інформацію" id="entry-text"></textarea>
+        <button type="submit" id="entry-button">Додати запис</button>
+    </form>
+
+    <script src="./createEntry.js"></script>
+    <script src="/changeTheme.js"></script>
+</body>
+</html>
